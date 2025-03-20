@@ -50,15 +50,20 @@ ROIs are provided in .png format, with each filename containing the correspondin
 - U-net
 
 ## Result
+###
+<div align="center"><img width="700" alt="image" src="https://github.com/user-attachments/assets/be2ed522-4082-4c5a-a8da-956ed4c0c388" />
+</div>
+<div align="center"><b>Figure 1: </b></b>Generated Tile Images</div>
+
 ### Excessive background removal
 <div align="center"><img width="600" alt="image" src="https://github.com/user-attachments/assets/4fe2ecd9-7cb6-427b-8a88-19ce535f0c7a" />
 </div>
-<div align="center"><b>Figure 1: </b>The image shows adjusting standard deviation to remove excessive background</div>
+<div align="center"><b>Figure 2: </b>Excessive Background Removal via Standard Deviation Adjustment</div>
 
 ### Training model on grayscale
 <div align="center"><img width="600" alt="image" src="https://github.com/user-attachments/assets/0378b370-775f-4c8d-8152-f810a2cfa908" />
 </div>
-<div align="center"><b>Figure 2: </b>The model was trained on grayscale with BCEWithLogitsLoss loss function, Adam optimizer with lr =1e-3 with 64 x 64 input size</div>
+<div align="center"><b>Figure 3: </b>The model was trained on grayscale with BCEWithLogitsLoss loss function, Adam optimizer with lr =1e-3 with 64 x 64 input size</div>
 
 ### Metrics
 - Accuracy: 0.79
