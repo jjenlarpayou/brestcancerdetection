@@ -73,6 +73,5 @@ ROIs are provided in .png format, with each filename containing the correspondin
 
 ### Contributions
 My tasks: Processed greyscale, created greyscale U-net, created performance
-metrics, coded custom dataset class and data wrapper, wrote report of greyscale, confusion
-matrix
+metrics, coded custom dataset class and data wrapper, confusion matrix
 
