@@ -71,3 +71,8 @@ ROIs are provided in .png format, with each filename containing the correspondin
 - Recall: 0.21
 - F1-Score: 0.30
 
+### Contributions
+My tasks: Processed greyscale, created greyscale U-net, created performance
+metrics, coded custom dataset class and data wrapper, wrote report of greyscale, confusion
+matrix
+
